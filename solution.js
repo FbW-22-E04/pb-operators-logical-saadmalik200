@@ -2,10 +2,14 @@ const isDogBetter = true;
 const isCatBetter = false;
 console.log("---------------------------------------------");
 console.log("isDogBetter && isCatBetter", isDogBetter && isCatBetter);
+console.log(isDogBetter && isCatBetter);
 console.log("---------------------------------------------");
 console.log("isDogBetter || isCatBetter", isDogBetter || isCatBetter);
+console.log(isDogBetter || isCatBetter);
+
 console.log("---------------------------------------------");
 console.log("!(isDogBetter && isCatBetter", !(isDogBetter && isCatBetter));
+console.log(!(isDogBetter && isCatBetter));
 console.log("---------------------------------------------");
 
 const atoms = 10;
